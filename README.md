@@ -9,8 +9,8 @@ Um projeto web feito em PHP, utilizando padrão MVC e ORM Doctrine.
 
 ## Instalando o XAMPP
 XAMPP é um pacote que contém MySQL e Apache, necessário para o PHP.
-Baixe o XAMPP neste link <https://www.apachefriends.org/pt_br/download.html> e instale
-Abra o painel do XAMPP e clique em "start" no Apache e no MySQL
+1. Baixe o XAMPP neste link <https://www.apachefriends.org/pt_br/download.html> e instale
+2. Abra o painel do XAMPP e clique em "start" no Apache e no MySQL
 
 ## Clonando o Projeto
 Após a instalação completa do XAMPP, clone o projeto e extraia para o diretório "C:\xampp\htdocs\MvcEmPHP-main"
