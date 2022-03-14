@@ -23,10 +23,11 @@ Baixe e instale o [Composer-Setup.exe](https://getcomposer.org/Composer-Setup.ex
 No diretório "C:\xampp\htdocs\MvcEmPHP-main", execute o comando `composer install`
 
 ## Configurando MySQL
-No painel do XAMPP, clique em "Admin" no campo do MySQL
-Após abrir o site do PHPMyAdmin, clique na opção "importar"
-Clique em "escolher arquivo" e selecione o arquivo "C:\xampp\htdocs\MvcEmPHP-main\testemagazord.sql"
-Mais abaixo, clique em "Executar"
+1. No painel do XAMPP, clique em "Admin" no campo do MySQL
+2. Após abrir o site do PHPMyAdmin, crie uma database chamada "test"
+3. Clique na database criada e clique na opção "importar" localizada na parte superior do site
+4. Clique em "escolher arquivo" e selecione o arquivo "C:\xampp\htdocs\MvcEmPHP-main\testemagazord.sql"
+5. Mais abaixo, clique em "Executar"
 
 ## Acessando o site
 Entre na URL <http://localhost/MvcEmPHP-main/view/>
