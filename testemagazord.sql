@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.4
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 14-Mar-2022 às 20:25
--- Versão do servidor: 10.4.16-MariaDB
--- versão do PHP: 7.4.12
+-- Tempo de geração: 14-Mar-2022 às 20:46
+-- Versão do servidor: 10.4.22-MariaDB
+-- versão do PHP: 8.1.2
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Banco de dados: `testemagazord`
+-- Banco de dados: `test`
 --
 
 -- --------------------------------------------------------
@@ -39,9 +39,8 @@ CREATE TABLE `contato` (
 --
 
 INSERT INTO `contato` (`id`, `descricao`, `tipo`, `user`) VALUES
-(1, 'joao@gmail.com', 1, 23),
-(2, 'joao@gmail.com', 1, 23),
-(3, '88433168', 0, 23);
+(6, '884598675', 0, 20),
+(7, 'exemplo@email.com.br', 1, 10);
 
 -- --------------------------------------------------------
 
@@ -60,17 +59,7 @@ CREATE TABLE `pessoa` (
 --
 
 INSERT INTO `pessoa` (`id`, `name`, `cpf`) VALUES
-(23, 'joao', '11111111111'),
-(24, 'joaoa', '22222222222'),
-(25, 'joaob', '33333333333'),
-(26, 'pessoa', '44433322211'),
-(27, 'pessoaa', '08072417924'),
-(28, 'pessoaa', '08072417924'),
-(29, 'pessoa', '08072417924'),
-(30, 'pessoa', '08072417924'),
-(31, 'novapessoa', '08072417923'),
-(32, 'novapessoa', '08072417923'),
-(33, 'granizo', '55544433322');
+(36, 'nomeExemplo', '11122233344');
 
 --
 -- Índices para tabelas despejadas
@@ -96,13 +85,13 @@ ALTER TABLE `pessoa`
 -- AUTO_INCREMENT de tabela `contato`
 --
 ALTER TABLE `contato`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT de tabela `pessoa`
 --
 ALTER TABLE `pessoa`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
