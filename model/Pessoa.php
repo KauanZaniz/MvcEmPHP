@@ -46,9 +46,7 @@ class Pessoa
      }
 
      
-    function inserirPessoa($setnome,$setcpf) {
-
-        require_once __DIR__."/../test.php";
+    function inserirPessoa($setnome,$setcpf,$entityManager) {
         
         $p = new Pessoa();
         $p->setName($setnome);

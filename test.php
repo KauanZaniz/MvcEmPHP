@@ -17,7 +17,7 @@ $config = Setup::createAnnotationMetadataConfiguration(array(__DIR__."/model"), 
 
 // database configuration parameters
 $connectionParams = array(
-    'url' => 'mysql://backend:mvcmagazord@localhost/testemagazord',
+    'url' => 'mysql://root@localhost/test',
 );
 
 $conn = \Doctrine\DBAL\DriverManager::getConnection($connectionParams);

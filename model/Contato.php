@@ -59,9 +59,8 @@ class Contato
         $this->user = $user;
      }
 
-     function inserirContato($tipo,$descricao,$user) {
-        require_once __DIR__."/../test.php";
-        
+     function inserirContato($tipo,$descricao,$user, $entityManager) {
+
         $c = new Contato();
         $c->setTipo($tipo);
         $c->setDescricao($descricao);

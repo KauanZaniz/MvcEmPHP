@@ -12,7 +12,7 @@
             $nome = $_POST['nome'];
             $cpf = $_POST['cpf'];
 
-            $p->inserirPessoa($nome,$cpf);
+            $p->inserirPessoa($nome,$cpf, $em);
             header("Location: ../view/");
         }
 
@@ -25,7 +25,7 @@
             $email = true;
             $descricao1 = $_POST['descricao'];
             $idpessoa1 = $_POST['idpessoa'];
-            $c->inserirContato($email,$descricao1,$idpessoa1);
+            $c->inserirContato($email,$descricao1,$idpessoa1, $em);
             header("Location: ../view/");
         }
 
@@ -33,7 +33,7 @@
             $numero = false;
             $descricao2 = $_POST['descricao'];
             $idpessoa2 = $_POST['idpessoa'];
-            $c->inserirContato($numero,$descricao2,$idpessoa2);
+            $c->inserirContato($numero,$descricao2,$idpessoa2, $em);
             header("Location: ../view/");
         }
 
