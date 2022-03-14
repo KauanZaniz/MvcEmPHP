@@ -1,0 +1,15 @@
+.collection {
+    text-align: center;
+}
+
+.field {
+    text-align: left;
+    display: inline-block;
+    width:45%;
+    padding: 10px;
+    border: 1px solid;
+}
+
+hr {
+    margin: 20px 0px;
+}
